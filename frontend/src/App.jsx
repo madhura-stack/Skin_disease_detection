@@ -1,7 +1,7 @@
 
 import { useState, useRef, useCallback } from "react";
-import.meta.env.VITE_API_URL
-const API_BASE = "https://skin-disease-detection-qb2j.onrender.com";
+
+const API_BASE = "http://localhost:8000";
 
 const RISK_CONFIG = {
   HIGH:   { bg: "#fff1f1", border: "#fca5a5", text: "#dc2626", dot: "#ef4444" },

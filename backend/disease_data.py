@@ -8,7 +8,10 @@ disease_database = {
 "symptoms": ["Dry skin", "Scaly patches", "Rough texture"],
 "treatable": "Yes",
 "what_to_do": ["Consult dermatologist early", "Avoid sun exposure"],
-"medications": ["Topical creams", "Cryotherapy"],
+"medications": [
+{"type": "Topical", "name": "Topical creams"},
+{"type": "Procedure", "name": "Cryotherapy"}
+],
 "prevention": ["Use sunscreen", "Wear protective clothing"]
 },
 
@@ -20,7 +23,10 @@ disease_database = {
 "symptoms": ["Pearly bumps", "Pink growth", "Slow healing sore"],
 "treatable": "Yes",
 "what_to_do": ["Consult dermatologist", "Early removal recommended"],
-"medications": ["Surgery", "Topical therapy"],
+"medications": [
+{"type": "Procedure", "name": "Surgery"},
+{"type": "Topical", "name": "Topical therapy"}
+],
 "prevention": ["Avoid UV exposure", "Use sunscreen"]
 },
 
@@ -32,7 +38,9 @@ disease_database = {
 "symptoms": ["Brown lesions", "Wart-like texture"],
 "treatable": "Usually harmless",
 "what_to_do": ["Monitor changes", "Consult doctor if size increases"],
-"medications": ["Usually none required"],
+"medications": [
+{"type": "General", "name": "Usually none required"}
+],
 "prevention": ["Routine skin checkups"]
 },
 
@@ -44,7 +52,9 @@ disease_database = {
 "symptoms": ["Firm bumps", "Small round nodules"],
 "treatable": "Not necessary",
 "what_to_do": ["Consult if painful"],
-"medications": ["Rare removal surgery"],
+"medications": [
+{"type": "Procedure", "name": "Rare removal surgery"}
+],
 "prevention": ["No prevention required"]
 },
 
@@ -56,7 +66,10 @@ disease_database = {
 "symptoms": ["Irregular mole", "Color variation", "Bleeding mole"],
 "treatable": "Yes if early detected",
 "what_to_do": ["Immediate dermatologist visit", "Biopsy required"],
-"medications": ["Surgery", "Immunotherapy"],
+"medications": [
+{"type": "Procedure", "name": "Surgery"},
+{"type": "Advanced", "name": "Immunotherapy"}
+],
 "prevention": ["Avoid tanning", "Use SPF daily"]
 },
 
@@ -68,7 +81,9 @@ disease_database = {
 "symptoms": ["Small pigmented spots"],
 "treatable": "Not required",
 "what_to_do": ["Observe mole changes"],
-"medications": ["None required"],
+"medications": [
+{"type": "General", "name": "None required"}
+],
 "prevention": ["Routine monitoring"]
 },
 
@@ -80,7 +95,9 @@ disease_database = {
 "symptoms": ["Red spots", "Purple marks"],
 "treatable": "Usually harmless",
 "what_to_do": ["Consult if lesion grows"],
-"medications": ["Laser therapy"],
+"medications": [
+{"type": "Procedure", "name": "Laser therapy"}
+],
 "prevention": ["Routine monitoring"]
 }
 
