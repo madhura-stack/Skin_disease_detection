@@ -1,0 +1,54 @@
+# Node modules (frontend)
+node_modules/
+
+# Vite build output
+dist/
+.vite/
+
+# Environment variables
+.env
+.env.local
+
+# Python virtual environments
+venv/
+env/
+__pycache__/
+
+# Python cache files
+*.pyc
+*.pyo
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Model files (important for ML projects)
+*.h5
+*.pt
+*.pth
+*.pkl
+*.joblib
+
+# Dataset folders (HAM10000 images are large)
+datasets/
+data/
+images/
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# Build folders
+build/
+
+# Coverage reports
+coverage/
+
+# Temporary files
+*.tmp
